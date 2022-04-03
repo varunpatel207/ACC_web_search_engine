@@ -10,6 +10,10 @@ public class Entry {
   private static Scanner sc = new Scanner(System.in);
 
   public static void main(String args[]) throws Exception {
+    // initial delete
+    deleteAllFiles("./text_pages");
+    deleteAllFiles("./url_pages_crawled");
+
     System.out.println("Web Search Engine\n\n");
 
     System.out.println(
